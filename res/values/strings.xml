@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDemo1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pause">点击继续游戏</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="exit_title">退出游戏</string>
+    <string name="exit_message">退出游戏</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_input">InputActivity</string>
+    <string name="title_activity_top">TopActivity</string>
+
+</resources>

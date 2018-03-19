@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".GameActivity" >
+
+    <Button
+        android:id="@+id/BT_title"
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/b0"
+        />
+
+    <ImageView
+        android:id="@+id/iv_time"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/BT_title"
+        android:src="@drawable/k" />
+
+    <ImageView
+        android:id="@+id/iv_run"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/BT_title"
+        android:layout_alignLeft="@+id/iv_time"
+        android:src="@drawable/up" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/iv_time"
+        android:textColor="#ffff00"
+        android:textSize="35sp"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/iv_time"
+        android:text="00:00:00" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/BT_title"
+        
+        >
+
+        <com.example.testdemo1.view.GameView
+            android:id="@+id/gameView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
